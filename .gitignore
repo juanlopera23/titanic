@@ -1,0 +1,56 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Datos descargados
+data/
+*.csv
+*.zip
+
+# Modelos y archivos generados
+models/
+artifacts/
+outputs/
+*.pkl
+*.pickle
+*.joblib
+
+# Resultados de pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Herramientas de análisis
+.mypy_cache/
+.ruff_cache/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
